@@ -34,6 +34,7 @@ a{
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    animation: cov 2s 9s forwards;
    direction: ltr;
+   animation: none 2s 10s forwards;
 }
 .test h1:first-of-type{
    color: white;
@@ -84,6 +85,11 @@ a{
 @keyframes h1 {
    to{
       opacity: 1;
+   }
+}
+@keyframes none {
+   to{
+      display: none;
    }
 }
 /* small screens */
@@ -282,6 +288,9 @@ a{
    }
    .head .right .all h2{
       font-size: 50px;
+   }
+   .head .right .all {
+      margin: 0;
    }
 }
 /* end head */
