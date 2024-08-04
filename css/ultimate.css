@@ -2,9 +2,7 @@
 body{
    direction: rtl;
    margin: 0;
-   overflow: hidden;
-   animation: w_body 2s 9s;
-   animation-fill-mode: forwards;
+   padding:0;
 }
 *{
    box-sizing: border-box;
