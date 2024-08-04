@@ -623,6 +623,9 @@ a{
    gap: 30px;
    margin-top: 25px;
 }
+.cons .boxes .box{
+   text-align:center;
+}
 .cons .boxes .box i{
    color: var(--ora-col);
    background-color: var(--yal-col);
@@ -638,6 +641,7 @@ a{
 .cons .boxes .box h3{
    font-size: 25px;
    margin: 16px 0;
+   text-align:center;
 }
 .cons .boxes .box p{
    color: #494949;
